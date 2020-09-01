@@ -4,13 +4,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Template</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <title>Picture in Picture!</title>
+
   <link rel="icon" type="image/png" href="favicon-16x16.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+
+  <div class="flex-container">
+
+    <!-- Video -->
+    <video id="video" controls height="360" width="640" hidden></video>
+
+    <p>In another browser window, open a full-page video stream and press play. </p>
+    <br>
+    <br>
+
+    <!-- Button -->
+    <div class="button-container">
+      <button id="button">start</button>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="text-container">
+
+      <p>Come back to this window and press 'start' to select that window's video stream.</p>
+      <br>
+      <br>
+      <p>Once selected, press 'start' again to view picture in picture.</p>
+      <br>
+      <br>
+      <p>Keep this window open, browse in a new window as normal and enjoy the show!</p>
+    </div>
+
+
+  </div>
+
+
+
   <!-- example of icon <i class="fab fa-500px"></i> -->
   <!-- Script -->
   <script src="script.js"></script>

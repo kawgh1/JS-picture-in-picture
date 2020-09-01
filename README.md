@@ -1,4 +1,4 @@
-# JS-picture-in-picture
+# Picture in Picture video stream
 run a picture-in-picture video within a web browser - watch a game or show
 
 

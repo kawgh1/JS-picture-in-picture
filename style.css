@@ -14,7 +14,7 @@ body {
   
 }
 
-p {
+p, h4 {
   color: whitesmoke;
   margin: auto;
   padding-left: 5%;
